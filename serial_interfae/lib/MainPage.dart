@@ -2,9 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
-import 'package:scoped_model/scoped_model.dart';
 
-class MainPage extends StatefulWidget {
+/*class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
 
   @override
@@ -20,7 +19,7 @@ class _MainPageState extends State<MainPage> {
   Timer? _discoerableTimeoutTimer;
   int _discoverableTimeoutSecondsLeft = 0;
 
-  BackgroundCollectingTask? _collectingTask;
+  //BackgroundCollectingTask? _collectingTask;
 
   bool _autoAcceptPairingRequest = false;
 
@@ -74,7 +73,7 @@ class _MainPageState extends State<MainPage> {
   @override
   void dispose() {
     FlutterBluetoothSerial.instance.setPairingRequestHandler(null);
-    _collectingTask?.dispose();
+    //_collectingTask?.dispose();
     _discoerableTimeoutTimer?.cancel();
     super.dispose();
   }
@@ -183,4 +182,4 @@ class _MainPageState extends State<MainPage> {
       ),
     );
   }
-}
+}*/

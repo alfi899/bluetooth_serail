@@ -1,0 +1,7 @@
+libraries:
+https://github.com/FirebaseExtended/firebase-arduino
+
+https://github.com/bblanchon/ArduinoJson/tree/5.x
+
+tutorial:
+https://rushankshah65.medium.com/how-to-make-an-iot-app-using-flutter-firebase-and-nodemcu-esp8266-b7a0a8c390ee
